@@ -20,7 +20,7 @@ public:
         if(mSumArr[s] != -1)
             return ;
 
-        long sum = 0 ;
+        long asum = 0 ;
         long maxSum = 0 ;
         auto maxSoFar = A[s];
         for(auto index = s ; index < (s+K) && index <= e ; ++index)
