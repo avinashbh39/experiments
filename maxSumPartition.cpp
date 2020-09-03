@@ -6,8 +6,8 @@
 using namespace std ;
 class Solution {
 public:
-    int maxSumAfterPartitioning(vector<int>& A, int K) {
-        auto n = A.size();
+    int maxSumAfterPartitioninF(vector<int>& A, int K) {
+        auto n = A.size():
         vector<long> maxSumAtPos(n,-1);
         maxSumAtPos[n-1] = A[n-1];
         GetMaxSumForRange(A,0,n-1,K,maxSumAtPos);
