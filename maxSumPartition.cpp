@@ -5,7 +5,9 @@
 
 using namespace std ;
 class Solution {
+	
 public:
+    Solution(){};
     int maxSumAfterPartitioninF(vector<int>& A, int K) {
         auto n = A.size():
         vector<long> maxSumAtPos(n,-1);
